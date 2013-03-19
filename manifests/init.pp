@@ -6,5 +6,4 @@ class appcode2 (
     provider => 'appdmg',
     source   => "http://download.jetbrains.com/objc/AppCode-${build}.dmg",
   }
-  require  => Class['java']
 }
