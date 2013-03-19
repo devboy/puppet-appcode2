@@ -9,6 +9,7 @@ include appcode2
 ## Required Puppet Modules
 
 * `boxen`
+* `java`
 
 ## Development
 
