@@ -15,6 +15,6 @@ class appcode2 (
   require java
   package { 'AppCode2':
     provider => 'appdmg',
-    source   => "http://download.jetbrains.com/objc/AppCode-#{version}.dmg",
+    source   => "http://download.jetbrains.com/objc/AppCode-${version}.dmg",
   }
 }
